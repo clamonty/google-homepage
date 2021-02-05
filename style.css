@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+.nav-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-link {
+  padding: 0 1em;
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+  font-size: 0.9em;
+}
+.nav-mail {
+  border-radius: 100%;
+  transform: scale(1.1);
+}
+.app-icon {
+  height: 20px;
+  color: rgba(70, 70, 70, 0.87);
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 10%;
+}
+.logo {
+  padding-bottom: 2em;
+}
+.search-form {
+  width: 60%;
+}
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2em;
+  border: 1px solid rgb(218, 218, 218);;
+  height: 2.5em;
+  border-radius: 10000000000px;
+}
+.search-bar > input {
+  width: 90%;
+  padding: .3em 1em;
+  outline: none;
+  border: none;
+}
+.search-bar > input:active {
+  outline: none;
+}
+.search-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.btn {
+  background-color: rgb(243, 243, 243);
+  margin-left: 2em;
+  height: 2.5em;
+  padding: .75em 1em;
+  text-align: center;
+  border: none;
+  border-radius: 0.3em;
+}
+.btn:hover {
+  box-shadow: #aaa 1px 1px 1px, #aaa -1px -1px 1px;
+}
+.language-info {
+  font-size: .9em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+  padding: 1em 0;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+.footer-nav > .footer-nav-one > a {
+  text-decoration: none;
+}
+p.footer-text {
+  padding-left: 1em;
+  padding-bottom: 1em;
+  color: rgba(53, 53, 53, 0.87);
+  border-bottom: 1px solid #ccc;
+  font-size: 1.2em;
+}
